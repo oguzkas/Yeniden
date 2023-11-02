@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		367407AC2ACD780A00CBCA12 /* YenidenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367407AB2ACD780A00CBCA12 /* YenidenApp.swift */; };
+		367407AE2ACD780A00CBCA12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367407AD2ACD780A00CBCA12 /* ContentView.swift */; };
+		367407B02ACD780C00CBCA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367407AF2ACD780C00CBCA12 /* Assets.xcassets */; };
+		367407B32ACD780C00CBCA12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 367407B22ACD780C00CBCA12 /* Preview Assets.xcassets */; };
+		367407BB2ACD78F700CBCA12 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 367407B92ACD78F700CBCA12 /* success.m4a */; };
+		367407BC2ACD78F700CBCA12 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 367407BA2ACD78F700CBCA12 /* chimeup.mp3 */; };
+		367407C32ACD7EF400CBCA12 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367407C22ACD7EF400CBCA12 /* OnBoardingView.swift */; };
+		367407C52ACD7F5600CBCA12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367407C42ACD7F5600CBCA12 /* HomeView.swift */; };
+		36FE309B2ACEE8CB00F2161C /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE309A2ACEE8CB00F2161C /* CircleGroupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		367407A82ACD780A00CBCA12 /* Yeniden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yeniden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		367407AB2ACD780A00CBCA12 /* YenidenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YenidenApp.swift; sourceTree = "<group>"; };
+		367407AD2ACD780A00CBCA12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		367407AF2ACD780C00CBCA12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		367407B22ACD780C00CBCA12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		367407B92ACD78F700CBCA12 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		367407BA2ACD78F700CBCA12 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		367407C12ACD7E7B00CBCA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		367407C22ACD7EF400CBCA12 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		367407C42ACD7F5600CBCA12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36FE309A2ACEE8CB00F2161C /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		367407A52ACD780A00CBCA12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3674079F2ACD780A00CBCA12 = {
+			isa = PBXGroup;
+			children = (
+				367407AA2ACD780A00CBCA12 /* Yeniden */,
+				367407A92ACD780A00CBCA12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		367407A92ACD780A00CBCA12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				367407A82ACD780A00CBCA12 /* Yeniden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		367407AA2ACD780A00CBCA12 /* Yeniden */ = {
+			isa = PBXGroup;
+			children = (
+				367407C12ACD7E7B00CBCA12 /* Info.plist */,
+				367407C02ACD7D2200CBCA12 /* Utilities */,
+				367407BF2ACD7D1B00CBCA12 /* Views */,
+				367407BD2ACD792700CBCA12 /* Sounds */,
+				367407AB2ACD780A00CBCA12 /* YenidenApp.swift */,
+				367407BE2ACD7D1000CBCA12 /* Screens */,
+				367407AF2ACD780C00CBCA12 /* Assets.xcassets */,
+				367407B12ACD780C00CBCA12 /* Preview Content */,
+			);
+			path = Yeniden;
+			sourceTree = "<group>";
+		};
+		367407B12ACD780C00CBCA12 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				367407B22ACD780C00CBCA12 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		367407BD2ACD792700CBCA12 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				367407BA2ACD78F700CBCA12 /* chimeup.mp3 */,
+				367407B92ACD78F700CBCA12 /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		367407BE2ACD7D1000CBCA12 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				367407AD2ACD780A00CBCA12 /* ContentView.swift */,
+				367407C22ACD7EF400CBCA12 /* OnBoardingView.swift */,
+				367407C42ACD7F5600CBCA12 /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		367407BF2ACD7D1B00CBCA12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36FE309A2ACEE8CB00F2161C /* CircleGroupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		367407C02ACD7D2200CBCA12 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		367407A72ACD780A00CBCA12 /* Yeniden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 367407B62ACD780C00CBCA12 /* Build configuration list for PBXNativeTarget "Yeniden" */;
+			buildPhases = (
+				367407A42ACD780A00CBCA12 /* Sources */,
+				367407A52ACD780A00CBCA12 /* Frameworks */,
+				367407A62ACD780A00CBCA12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yeniden;
+			productName = Yeniden;
+			productReference = 367407A82ACD780A00CBCA12 /* Yeniden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		367407A02ACD780A00CBCA12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					367407A72ACD780A00CBCA12 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 367407A32ACD780A00CBCA12 /* Build configuration list for PBXProject "Yeniden" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3674079F2ACD780A00CBCA12;
+			productRefGroup = 367407A92ACD780A00CBCA12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				367407A72ACD780A00CBCA12 /* Yeniden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		367407A62ACD780A00CBCA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367407BC2ACD78F700CBCA12 /* chimeup.mp3 in Resources */,
+				367407B32ACD780C00CBCA12 /* Preview Assets.xcassets in Resources */,
+				367407BB2ACD78F700CBCA12 /* success.m4a in Resources */,
+				367407B02ACD780C00CBCA12 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		367407A42ACD780A00CBCA12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FE309B2ACEE8CB00F2161C /* CircleGroupView.swift in Sources */,
+				367407C32ACD7EF400CBCA12 /* OnBoardingView.swift in Sources */,
+				367407C52ACD7F5600CBCA12 /* HomeView.swift in Sources */,
+				367407AE2ACD780A00CBCA12 /* ContentView.swift in Sources */,
+				367407AC2ACD780A00CBCA12 /* YenidenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		367407B42ACD780C00CBCA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		367407B52ACD780C00CBCA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		367407B72ACD780C00CBCA12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yeniden/Preview Content\"";
+				DEVELOPMENT_TEAM = PUJK256TL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yeniden/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguzgkas.Yeniden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		367407B82ACD780C00CBCA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Yeniden/Preview Content\"";
+				DEVELOPMENT_TEAM = PUJK256TL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yeniden/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oguzgkas.Yeniden;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		367407A32ACD780A00CBCA12 /* Build configuration list for PBXProject "Yeniden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367407B42ACD780C00CBCA12 /* Debug */,
+				367407B52ACD780C00CBCA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		367407B62ACD780C00CBCA12 /* Build configuration list for PBXNativeTarget "Yeniden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367407B72ACD780C00CBCA12 /* Debug */,
+				367407B82ACD780C00CBCA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 367407A02ACD780A00CBCA12 /* Project object */;
+}
